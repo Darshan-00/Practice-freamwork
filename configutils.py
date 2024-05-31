@@ -8,7 +8,7 @@ class ConfigUtils:
     def __init__(self, file_path="config.yml"):
         self.config = self.load_config(file_path)
 
-    def load_config(self, file_path):
+    def load_config(self, "config.yml"):
         """
         Reading values from config.yml file
         :param file_path:
