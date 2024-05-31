@@ -14,7 +14,7 @@ class ConfigUtils:
         :param file_path:
         :return:
         """
-        with open(file_path, "r") as file:
+        with open(config_file, "r") as file:
             return yaml.safe_load(file)
 
     def get_env(self):
