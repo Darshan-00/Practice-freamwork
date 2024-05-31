@@ -1,0 +1,14 @@
+ENV: "dev"
+DEV:
+  URL: "https://demoqa.com/"
+  USEREMAIL: "qa@grace-technology.io"
+  PASSWORD: "123456"
+  HEADLESS_MODE: FALSE
+  DEFAULT_WAIT: 10
+
+PRODUCTION:
+  URL: "your_production_url"
+  USEREMAIL: "your_production_username"
+  PASSWORD: "your_production_password"
+  HEADLESS_MODE: True
+  DEFAULT_WAIT: 10
